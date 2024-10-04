@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta name="referrer" content="no-referrer">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"></script> 
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        async function loadIframeData() {
+            const response = await fetch('play/saidaecorno.json'); 
+            const jsonData = await response.json();
+
+            const id = getUrlParameter('id');
+            if (jsonData.iframes[id]) {
+                document.body.innerHTML = jsonData.iframes[id];
+            } else {
+                document.body.innerHTML = "<p>Canal não encontrado.</p>";
+            }
+        }
+
+        function getUrlParameter(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        loadIframeData();
+    </script>
+</body>
+</html>
