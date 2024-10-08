@@ -70,21 +70,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/redetv.png"
     },
     {
-        "name": "ESTRELA DA CASA - CAM 1",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=estreladacasa1",
-        "image": "https://sinalpublico.netlify.app/imgs/estreladacasa.png"
-    },
-    {
-        "name": "ESTRELA DA CASA - CAM 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=estreladacasa2",
-        "image": "https://sinalpublico.netlify.app/imgs/estreladacasa.png"
-    },
-    {
-        "name": "ESTRELA DA CASA - CAM 3",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=estreladacasa3",
-        "image": "https://sinalpublico.netlify.app/imgs/estreladacasa.png"
-    },
-    {
         "name": "A FAZENDA - CAM 1",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=afazenda1",
         "image": "https://sinalpublico.netlify.app/imgs/afazenda.png"
