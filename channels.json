@@ -85,6 +85,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/afazenda.png"
     },
     {
+        "name": "RED BULL TV",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=redbulltv",
+        "image": "https://sinalpublico.netlify.app/imgs/redbulltv.png"
+    },
+    {
         "name": "SPORTV 1",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sportv1",
         "image": "https://sinalpublico.netlify.app/imgs/sportv.png"
