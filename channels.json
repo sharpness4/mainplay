@@ -140,26 +140,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
-        "name": "FUTEBOL JOGO 1",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=jogo1",
-        "image": "https://sinalpublico.netlify.app/imgs/jogo1.png"
-    },
-    {
-        "name": "FUTEBOL JOGO 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=jogo2",
-        "image": "https://sinalpublico.netlify.app/imgs/jogo2.png"
-    },
-    {
-        "name": "FUTEBOL JOGO 3",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=jogo3",
-        "image": "https://sinalpublico.netlify.app/imgs/jogo3.png"
-    },
-    {
-        "name": "WWE NETWORK",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=wwe",
-        "image": "https://sinalpublico.netlify.app/imgs/wwe.png"
-    },
-    {
         "name": "BONS TEMPOS TV",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=bonstempostv",
         "image": "https://sinalpublico.netlify.app/imgs/bonstempostv.png"
@@ -205,11 +185,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/telecinepipoca.png"
     },
     {
-        "name": "TELECINE PREMIUM",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepremium",
-        "image": "https://sinalpublico.netlify.app/imgs/telecinepremium.png"
-    },
-    {
         "name": "SPACE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
@@ -233,11 +208,6 @@
         "name": "CARTOON NETWORK",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=cartoonnetwork",
         "image": "https://sinalpublico.netlify.app/imgs/cartoonnetwork.png"
-    },
-    {
-        "name": "NICKELODEON",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=nick",
-        "image": "https://sinalpublico.netlify.app/imgs/nickelodeon.png"
     },
     {
         "name": "DISNEY CHANNEL",
