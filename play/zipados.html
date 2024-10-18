@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta content='width=device-width, initial-scale=1' name='viewport'>
-    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Language" content="pt-br" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
     <script src="https://fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
@@ -82,7 +86,7 @@ devtoolIsOpening();
 <body>
     <script>
         async function loadIframeData() {
-            const response = await fetch('https://sinalpublico.netlify.app/play/zxz/xvxvxvxvxvxvxvxvx.json'); 
+            const response = await fetch('/play/zxz/xvxvxvxvxvxvxvxvx.json'); 
             const jsonData = await response.json();
 
             const id = getUrlParameter('id');
