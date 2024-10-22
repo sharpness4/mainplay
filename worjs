@@ -84,3 +84,63 @@ async function handleRequest(request) {
         return new Response('Error fetching the M3U8 file', { status: 500 });
     }
 }
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+addEventListener('fetch', event => {
+    event.respondWith(handleRequest(event.request));
+});
+
+async function handleRequest(request) {
+    const url = new URL(request.url);
+    const targetUrl = url.pathname.slice(1); // Extrai o link após a barra
+
+    // Verifica se a URL está vazia ou não termina com .m3u8, .mpd, manifest.mpd ou index.mpd
+    if (!targetUrl || 
+        (!targetUrl.endsWith('.m3u8') && 
+         !targetUrl.endsWith('.mpd') && 
+         !targetUrl.endsWith('manifest.mpd') && 
+         !targetUrl.endsWith('index.mpd'))) {
+        return new Response('Valid .m3u8, .mpd, manifest.mpd, or index.mpd URL is required', { status: 400 });
+    }
+
+    // Constrói a URL completa, permitindo http e https
+    const decodedUrl = decodeURIComponent(targetUrl);
+    const fullUrl = decodedUrl.startsWith('http://') || decodedUrl.startsWith('https://')
+        ? decodedUrl
+        : `http://${decodedUrl}`; // Adiciona http se não estiver presente
+
+    try {
+        const response = await fetch(fullUrl, {
+            method: request.method,
+            headers: {
+                ...request.headers,
+                'Origin': '', // Remove o cabeçalho de origem, se necessário
+            },
+        });
+
+        // Verifica se a resposta é bem-sucedida
+        if (!response.ok) {
+            return new Response('Error fetching the file', { status: response.status });
+        }
+
+        // Cria um novo cabeçalho para a resposta
+        const newHeaders = new Headers(response.headers);
+
+        // Adiciona o cabeçalho CORS
+        newHeaders.set('Access-Control-Allow-Origin', '*');
+
+        // Retorna a resposta do arquivo
+        return new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: newHeaders,
+        });
+    } catch (error) {
+        return new Response('Error fetching the file', { status: 500 });
+    }
+}
