@@ -28,16 +28,10 @@
 <body>
     <script>
 async function loadIframeData() {
-  // Faz uma requisição para buscar o arquivo JSON
   const response = await fetch("/play/zxz/твензнак.json");
-
-  // Converte a resposta para JSON
   const data = await response.json();
-
-  // Obtém o parâmetro 'id' da URL
   const iframeId = getUrlParameter('id');
 
-  // Verifica se o iframe existe no JSON, caso contrário, exibe uma mensagem de erro
   if (data.iframes[iframeId]) {
     document.body.innerHTML = data.iframes[iframeId];
   } else {
@@ -49,8 +43,6 @@ function getUrlParameter(parameterName) {
   const urlParams = new URLSearchParams(window.location.search);
   return urlParams.get(parameterName);
 }
-
-// Carrega os dados do iframe
 loadIframeData();
     </script>
     <script type="86514701dc429a0bf601b774-text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
