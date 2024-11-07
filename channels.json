@@ -10,13 +10,18 @@
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
+        "name": "GLOBO RJ -Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj-2",
+        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
+    },
+    {
         "name": "SBT",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt",
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
     },
     {
         "name": "SBT -Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt-2",
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
     },
     {
@@ -26,12 +31,17 @@
     },
     {
         "name": "BAND -Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band-2",
         "image": "https://sinalpublico.netlify.app/imgs/band.png"
     },
     {
         "name": "RECORD",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=record",
+        "image": "https://sinalpublico.netlify.app/imgs/record.png"
+    },
+    {
+        "name": "RECORD -Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=record-2",
         "image": "https://sinalpublico.netlify.app/imgs/record.png"
     },
     {
@@ -196,7 +206,7 @@
     },
     {
         "name": "TNT -Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=tnt2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=tnt-2",
         "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
     },
     {
@@ -211,7 +221,7 @@
     },
     {
         "name": "MEGAPIX -Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix-2",
         "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
     },
     {
@@ -231,7 +241,7 @@
     },
     {
         "name": "SPACE -Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space-2",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
     },
     {
