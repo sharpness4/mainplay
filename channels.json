@@ -131,7 +131,7 @@
     },
     {
         "name": "PREMIERE CLUBES -Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiereclubes2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiereclubes-2",
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
     {
@@ -155,13 +155,28 @@
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
+        "name": "ESPN 1 -Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn1-2",
+        "image": "https://sinalpublico.netlify.app/imgs/espn.png"
+    },
+    {
         "name": "ESPN 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn2",
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
+        "name": "ESPN 2 -Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn2-2",
+        "image": "https://sinalpublico.netlify.app/imgs/espn.png"
+    },,
+    {
         "name": "ESPN 3",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn3",
+        "image": "https://sinalpublico.netlify.app/imgs/espn.png"
+    },
+    {
+        "name": "ESPN 3-Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn3-2",
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
