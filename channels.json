@@ -15,7 +15,7 @@
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
     },
     {
-        "name": "SBT - 2",
+        "name": "SBT -Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt2",
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
     },
@@ -25,7 +25,7 @@
         "image": "https://sinalpublico.netlify.app/imgs/band.png"
     },
     {
-        "name": "BAND - 2",
+        "name": "BAND -Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band2",
         "image": "https://sinalpublico.netlify.app/imgs/band.png"
     },
@@ -120,7 +120,7 @@
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
     {
-        "name": "PREMIERE CLUBES - 2",
+        "name": "PREMIERE CLUBES -Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiereclubes2",
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
@@ -195,7 +195,7 @@
         "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
     },
     {
-        "name": "TNT - 2",
+        "name": "TNT -Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=tnt2",
         "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
     },
@@ -207,6 +207,11 @@
     {
         "name": "MEGAPIX",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix",
+        "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
+    },
+    {
+        "name": "MEGAPIX -Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix2",
         "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
     },
     {
@@ -225,7 +230,7 @@
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
     },
     {
-        "name": "SPACE - 2",
+        "name": "SPACE -Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space2",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
     },
