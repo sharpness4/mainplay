@@ -15,8 +15,18 @@
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
     },
     {
+        "name": "SBT - 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt2",
+        "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
+    },
+    {
         "name": "BAND",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band",
+        "image": "https://sinalpublico.netlify.app/imgs/band.png"
+    },
+    {
+        "name": "BAND - 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band2",
         "image": "https://sinalpublico.netlify.app/imgs/band.png"
     },
     {
@@ -185,6 +195,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
     },
     {
+        "name": "TNT - 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=tnt2",
+        "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
+    },
+    {
         "name": "PARAMOUNT NETWORK",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=paramountnetwork",
         "image": "https://sinalpublico.netlify.app/imgs/paramount.png"
@@ -207,6 +222,11 @@
     {
         "name": "SPACE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space",
+        "image": "https://sinalpublico.netlify.app/imgs/space.png"
+    },
+    {
+        "name": "SPACE - 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space2",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
     },
     {
