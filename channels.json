@@ -200,6 +200,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/telecinepipoca.png"
     },
     {
+        "name": "TELECINE PREMIUM",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepremium",
+        "image": "https://sinalpublico.netlify.app/imgs/telecinepremium.png"
+    },
+    {
         "name": "SPACE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
