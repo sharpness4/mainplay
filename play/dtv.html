@@ -238,41 +238,38 @@ else if (id === "redbulltv") {
         }
     </script>
     
-    <script>
-    document.addEventListener("contextmenu", function(e){
+<script>
+    document.addEventListener("contextmenu", function(e) {
         e.preventDefault();
     }, false);
+
     document.onkeydown = function(e) {
-        if (event.keyCode == 123) {
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'U'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-         return false;
-        }
-    }
-    /*function check(e)
-    {
-    alert(e.keyCode);
-    }*/
-    document.onkeydown = function(e) {
-            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
-                alert('DESABILITADO');
-            }
+        // Impedir a tecla F12
+        if (e.keyCode == 123) {
             return false;
+        }
+        
+        if (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 85 || e.keyCode == 67 || e.keyCode == 74)) {
+            return false;
+        }
+
+        if (e.ctrlKey && (e.keyCode == 85 || e.keyCode == 67 || e.keyCode == 86)) {
+            return false;
+        }
+
+        if (e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    };
+
+    document.onkeydown = function(e) {
+        if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85)) {
+            alert('Erro 404');
+            return false;
+        }
     };
 </script>
+    
     <script id="_waudf1">var _wau = _wau || []; _wau.push(["dynamic", "63o9m0yxdl", "df1", "c4302bffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
     <iframe src="https://sinalpublico.netlify.app/play/x.html" allow="encrypted-media" width="2" height="2"></iframe>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
