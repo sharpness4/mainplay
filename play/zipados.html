@@ -9,22 +9,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
     <script>
-        if (window.top === window.self) {
-            window.location.href = "https://www.google.com.br/";
+<script>
+    if (window.top === window.self) {
+        window.location.href = "https://www.google.com.br/";
+    }
+
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    document.onkeydown = function(e) {
+
+        if (e.keyCode == 123) {
+            return false;
         }
 
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
+        if (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 85 || e.keyCode == 67 || e.keyCode == 74)) {
+            return false;
+        }
 
-        document.onkeydown = function(e) {
-            const blockedKeys = [67, 86, 83, 85, 80, 123, 73, 74, 117]; // C, V, S, U, P, F12, I, J, F6
-            if (e.ctrlKey && blockedKeys.includes(e.keyCode)) {
-                alert('PROIBIDO');
-                return false;
-            }
-            return true;
-        };
+        if (e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+
+        if (e.ctrlKey && (e.keyCode == 67 || e.keyCode == 86)) {
+            return false;
+        }
+    };
 
         async function loadIframeData() {
             try {
