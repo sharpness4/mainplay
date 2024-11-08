@@ -9,6 +9,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
     <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
     <script>
+     <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 <script>
     if (window.top === window.self) {
         window.location.href = "https://www.google.com.br/";
@@ -36,7 +51,8 @@
             return false;
         }
     };
-
+    </script>
+        <script>
         async function loadIframeData() {
             try {
                 const response = await fetch("https://sinalpublico.netlify.app/play/zxz/tuquebrouocano.json");
@@ -63,21 +79,6 @@
 
         loadIframeData();
     </script>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            width: 100%;
-            height: 100%;
-        }
-        iframe {
-            display: block;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
 </head>
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
