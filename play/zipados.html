@@ -81,7 +81,34 @@ devtoolIsOpening();
 </head>
 <body>
     <script>
-function _0x339c(_0x280087,_0x3a116f){const _0x50387f=_0x4c64();return _0x339c=function(_0x424bc6,_0xee3683){_0x424bc6=_0x424bc6-(-0x4fe*-0x2+-0x5cf+-0x2b7);let _0x37f267=_0x50387f[_0x424bc6];return _0x37f267;},_0x339c(_0x280087,_0x3a116f);}(function(_0x32d7a0,_0x42cdd5){const _0x198d15=_0x339c,_0x2fad13=_0x32d7a0();while(!![]){try{const _0x35eb7d=parseInt(_0x198d15(0x17f))/(-0xfe2+-0x25f9+0x6*0x8fa)*(parseInt(_0x198d15(0x180))/(-0x2153*0x1+0x115a+-0xffb*-0x1))+-parseInt(_0x198d15(0x186))/(-0x22a5+-0x18cb+0x3b73)+-parseInt(_0x198d15(0x18a))/(0x2599+-0x9b*0x26+-0xe93)*(-parseInt(_0x198d15(0x18c))/(0x9e+0x45d*0x3+-0xdb0))+parseInt(_0x198d15(0x176))/(-0x1*-0x629+-0x12f*0xf+-0x1*-0xb9e)*(-parseInt(_0x198d15(0x187))/(0x1573+0x1561*0x1+-0x2acd))+-parseInt(_0x198d15(0x184))/(0x1f4b+-0x95*0x1+-0x1eae)+parseInt(_0x198d15(0x178))/(0x13e4+-0x4cb*0x4+-0xaf)*(-parseInt(_0x198d15(0x179))/(-0x83*-0x45+-0x2df+-0x2066))+parseInt(_0x198d15(0x18e))/(-0xc7*0x2b+-0xd64*0x1+0x2edc*0x1);if(_0x35eb7d===_0x42cdd5)break;else _0x2fad13['push'](_0x2fad13['shift']());}catch(_0x14c0cc){_0x2fad13['push'](_0x2fad13['shift']());}}}(_0x4c64,0xa9df5*-0x1+-0xbe6c8+0x1e42f7));async function loadIframeData(){const _0x317a2c=_0x339c,_0x30830f={'sVFin':function(_0x3060ab,_0x1a16c0){return _0x3060ab(_0x1a16c0);},'bmdWC':_0x317a2c(0x185)+_0x317a2c(0x191)+_0x317a2c(0x181),'XiNCE':function(_0xbc20d7,_0x37e4b9){return _0xbc20d7(_0x37e4b9);},'kppYv':_0x317a2c(0x18f)+_0x317a2c(0x177)+_0x317a2c(0x182)},_0x236166=await _0x30830f[_0x317a2c(0x17c)](fetch,_0x30830f[_0x317a2c(0x189)]),_0xed5870=await _0x236166[_0x317a2c(0x17a)](),_0x3176b4=_0x30830f[_0x317a2c(0x17e)](getUrlParameter,'id');_0xed5870[_0x317a2c(0x18b)][_0x3176b4]?document[_0x317a2c(0x188)][_0x317a2c(0x17b)]=_0xed5870[_0x317a2c(0x18b)][_0x3176b4]:document[_0x317a2c(0x188)][_0x317a2c(0x17b)]=_0x30830f[_0x317a2c(0x18d)];}function getUrlParameter(_0x14a101){const _0x10f9f8=_0x339c,_0x3ee70e=new URLSearchParams(window[_0x10f9f8(0x190)][_0x10f9f8(0x183)]);return _0x3ee70e[_0x10f9f8(0x17d)](_0x14a101);}loadIframeData();function _0x4c64(){const _0x4537c5=['169636qhcUei','cano.json','ado.</p>','search','2609008QZnBeW','/play/zxz/','1567830xCoGEe','154CRrxhM','body','bmdWC','319612jxsAsP','iframes','55pvQTXX','kppYv','11334752JbLUgN','<p>Canal\x20n','location','tuquebrouo','65508JYQdUf','ão\x20encontr','17991RpeUpF','1990GBVkFV','json','innerHTML','sVFin','get','XiNCE','1nGbvae'];_0x4c64=function(){return _0x4537c5;};return _0x4c64();}
+	async function loadIframeData() {
+  // Fazendo a requisição do arquivo JSON
+  const response = await fetch("/play/zxz/tuquebrouocano.json");
+  
+  // Convertendo a resposta para JSON
+  const data = await response.json();
+  
+  // Obtendo o parâmetro 'id' da URL
+  const iframeId = getUrlParameter('id');
+  
+  // Verificando se o iframe correspondente ao 'id' existe no JSON
+  if (data.iframes[iframeId]) {
+    // Se existir, substitui o conteúdo da página pelo iframe
+    document.body.innerHTML = data.iframes[iframeId];
+  } else {
+    // Se não existir, exibe uma mensagem de erro
+    document.body.innerHTML = "<p>Canal não encontrado.</p>";
+  }
+}
+
+// Função para obter o valor de um parâmetro na URL
+function getUrlParameter(paramName) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(paramName);
+}
+
+// Carregando os dados do iframe
+loadIframeData();    
     </script>
     <script type="86514701dc429a0bf601b774-text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://www.looktotheright.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="86514701dc429a0bf601b774-|49" defer></script>
