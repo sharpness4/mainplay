@@ -90,6 +90,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/cultura.png"
     },
     {
+        "name": "CANAL BRASIL",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=canalbrasil",
+        "image": "https://sinalpublico.netlify.app/imgs/canalbrasil.png"
+    },
+    {
         "name": "REDETV",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=redetv",
         "image": "https://sinalpublico.netlify.app/imgs/redetv.png"
@@ -278,6 +283,11 @@
         "name": "ADULTSWIM",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=adultswim",
         "image": "https://sinalpublico.netlify.app/imgs/adultswim.png"
+    },
+    {
+        "name": "GLOOBINHO",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=gloobinho",
+        "image": "https://sinalpublico.netlify.app/imgs/gloobinho.png"
     },
     {
         "name": "CARTOON NETWORK",
