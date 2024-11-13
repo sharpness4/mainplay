@@ -5,6 +5,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
+        "name": "GLOBO MG",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj",
+        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
+    },
+    {
         "name": "GLOBO RJ",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
