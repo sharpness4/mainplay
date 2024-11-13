@@ -205,6 +205,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/villatv.png"
     },
     {
+        "name": "OFF",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=off",
+        "image": "https://sinalpublico.netlify.app/imgs/off.png"
+    },
+    {
         "name": "MULTISHOW",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=multishow",
         "image": "https://sinalpublico.netlify.app/imgs/multishow.png"
