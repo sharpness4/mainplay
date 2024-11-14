@@ -195,13 +195,18 @@
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
-        "name": "ESPN 3- Opção 2",
+        "name": "ESPN 3 - Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn3-2",
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
         "name": "ESPN 4",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn4",
+        "image": "https://sinalpublico.netlify.app/imgs/espn.png"
+    },
+    {
+        "name": "ESPN 4 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn4-2",
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
