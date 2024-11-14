@@ -240,6 +240,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/off.png"
     },
     {
+        "name": "VIVA",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=viva",
+        "image": "https://sinalpublico.netlify.app/imgs/viva.png"
+    },
+    {
         "name": "MULTISHOW",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=multishow",
         "image": "https://sinalpublico.netlify.app/imgs/multishow.png"
