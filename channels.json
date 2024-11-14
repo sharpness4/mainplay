@@ -120,6 +120,16 @@
         "image": "https://sinalpublico.netlify.app/imgs/afazenda.png"
     },
     {
+        "name": "A FAZENDA - CAM 4",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=afazenda4",
+        "image": "https://sinalpublico.netlify.app/imgs/afazenda.png"
+    },
+    {
+        "name": "A FAZENDA - CAM 5",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=afazenda5",
+        "image": "https://sinalpublico.netlify.app/imgs/afazenda.png"
+    },
+    {
         "name": "RED BULL TV",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=redbulltv",
         "image": "https://sinalpublico.netlify.app/imgs/redbulltv.png"
