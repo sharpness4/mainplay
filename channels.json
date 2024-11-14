@@ -10,6 +10,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
+        "name": "GLOBO CE",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globoce",
+        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
+    },
+    {
         "name": "GLOBO RJ",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
