@@ -20,11 +20,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
-        "name": "GLOBO RJ - Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj-2",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
         "name": "SBT",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt",
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
