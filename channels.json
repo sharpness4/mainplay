@@ -150,6 +150,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/sportv.png"
     },
     {
+        "name": "SPORTV 1 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sportv1-2",
+        "image": "https://sinalpublico.netlify.app/imgs/sportv.png"
+    },
+    {
         "name": "SPORTV 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sportv2",
         "image": "https://sinalpublico.netlify.app/imgs/sportv2.png"
@@ -167,6 +172,11 @@
     {
         "name": "PREMIERE CLUBES - Opção 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiereclubes-2",
+        "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
+    },
+    {
+        "name": "PREMIERE CLUBES - Opção 3",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiereclubes-3",
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
     {
