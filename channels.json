@@ -260,6 +260,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/viva.png"
     },
     {
+        "name": "MODOVIAGEM",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=modoviagem",
+        "image": "https://sinalpublico.netlify.app/imgs/modoviagem.png"
+    },
+    {
         "name": "MULTISHOW",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=multishow",
         "image": "https://sinalpublico.netlify.app/imgs/multishow.png"
@@ -328,6 +333,11 @@
         "name": "GLOOBINHO",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=gloobinho",
         "image": "https://sinalpublico.netlify.app/imgs/gloobinho.png"
+    },
+    {
+        "name": "GLOOB",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=gloob",
+        "image": "https://sinalpublico.netlify.app/imgs/gloob.png"
     },
     {
         "name": "CARTOON NETWORK",
