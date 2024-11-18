@@ -75,6 +75,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/tvbrasil.png"
     },
     {
+        "name": "FUTURA",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=futura",
+        "image": "https://sinalpublico.netlify.app/imgs/futura.png"
+    },
+    {
         "name": "RECORD NEWS",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=recordnews",
         "image": "https://sinalpublico.netlify.app/imgs/recordnews.png"
