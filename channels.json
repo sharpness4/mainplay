@@ -250,6 +250,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/modoviagem.png"
     },
     {
+        "name": "STUDIO UNIVERSAL",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=studiouniversal",
+        "image": "https://sinalpublico.netlify.app/imgs/studiouniversal.png"
+    },
+    {
         "name": "MULTISHOW",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=multishow",
         "image": "https://sinalpublico.netlify.app/imgs/multishow.png"
