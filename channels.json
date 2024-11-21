@@ -300,6 +300,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
     },
     {
+        "name": "MEGAPIX - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix-2",
+        "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
+    },
+    {
         "name": "TELECINE PIPOCA",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepipoca",
         "image": "https://sinalpublico.netlify.app/imgs/telecinepipoca.png"
