@@ -300,6 +300,16 @@
         "image": "https://sinalpublico.netlify.app/imgs/telecinepremium.png"
     },
     {
+        "name": "HBO",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=hbo",
+        "image": "https://sinalpublico.netlify.app/imgs/hbo.png"
+    },
+    {
+        "name": "GNT",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=gnt",
+        "image": "https://sinalpublico.netlify.app/imgs/gnt.png"
+    },
+    {
         "name": "SPACE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
