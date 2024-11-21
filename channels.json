@@ -5,8 +5,8 @@
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
-        "name": "GLOBO SOROCABA",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosorocaba",
+        "name": "GLOBO SP",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosp",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
@@ -22,6 +22,11 @@
     {
         "name": "GLOBO RJ",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj",
+        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
+    },
+    {
+        "name": "GLOBO SOROCABA",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosorocaba",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
