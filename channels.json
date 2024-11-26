@@ -270,11 +270,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
     },
     {
-        "name": "TNT - Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=tnt-2",
-        "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
-    },
-    {
         "name": "PARAMOUNT NETWORK",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=paramountnetwork",
         "image": "https://sinalpublico.netlify.app/imgs/paramount.png"
