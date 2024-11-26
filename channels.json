@@ -150,11 +150,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
     {
-        "name": "PREMIERE 5",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiere5",
-        "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
-    },
-    {
         "name": "COMBATE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=combate",
         "image": "https://sinalpublico.netlify.app/imgs/combate.png"
