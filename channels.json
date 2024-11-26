@@ -6,27 +6,7 @@
     },
     {
         "name": "GLOBO SP",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosp",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
-        "name": "GLOBO MG",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globomg",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
-        "name": "GLOBO CE",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globoce",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
-        "name": "GLOBO RJ",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globorj",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
-        "name": "GLOBO SOROCABA",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosorocaba",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globo",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
@@ -40,18 +20,8 @@
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
     },
     {
-        "name": "SBT - Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt-2",
-        "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
-    },
-    {
         "name": "BAND",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band",
-        "image": "https://sinalpublico.netlify.app/imgs/band.png"
-    },
-    {
-        "name": "BAND - Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=band-2",
         "image": "https://sinalpublico.netlify.app/imgs/band.png"
     },
     {
