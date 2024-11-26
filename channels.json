@@ -280,11 +280,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
     },
     {
-        "name": "MEGAPIX - Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix-2",
-        "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
-    },
-    {
         "name": "TELECINE PIPOCA",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepipoca",
         "image": "https://sinalpublico.netlify.app/imgs/telecinepipoca.png"
@@ -317,11 +312,6 @@
     {
         "name": "SPACE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space",
-        "image": "https://sinalpublico.netlify.app/imgs/space.png"
-    },
-    {
-        "name": "SPACE - Opção 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=space-2",
         "image": "https://sinalpublico.netlify.app/imgs/space.png"
     },
     {
