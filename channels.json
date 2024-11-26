@@ -175,6 +175,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
+        "name": "ESPN 5",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn5",
+        "image": "https://sinalpublico.netlify.app/imgs/espn.png"
+    },
+    {
         "name": "BONS TEMPOS TV",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=bonstempostv",
         "image": "https://sinalpublico.netlify.app/imgs/bonstempostv.png"
