@@ -25,11 +25,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/record.png"
     },
     {
-        "name": "RECORD RS",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=recordrs",
-        "image": "https://sinalpublico.netlify.app/imgs/record.png"
-    },
-    {
         "name": "RECORD GO",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=recordgo",
         "image": "https://sinalpublico.netlify.app/imgs/record.png"
