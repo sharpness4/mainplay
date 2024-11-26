@@ -1,10 +1,5 @@
 [
     {
-        "name": "GLOBO",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globo",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
         "name": "GLOBO SP",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globo",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
