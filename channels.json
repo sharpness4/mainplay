@@ -115,6 +115,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/sportv.png"
     },
     {
+        "name": "SPORTV 1 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sportv1-2",
+        "image": "https://sinalpublico.netlify.app/imgs/sportv.png"
+    },
+    {
         "name": "SPORTV 2",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sportv2",
         "image": "https://sinalpublico.netlify.app/imgs/sportv2.png"
