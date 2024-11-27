@@ -150,6 +150,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/combate.png"
     },
     {
+        "name": "COMBATE - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=combate-2",
+        "image": "https://sinalpublico.netlify.app/imgs/combate.png"
+    },
+    {
         "name": "ESPN 1",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=espn1",
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
