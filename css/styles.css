@@ -287,4 +287,12 @@ footer p {
     font-weight: normal; /* Negrito */
     margin-bottom: 20px; /* Espaço abaixo do título */
     color: #fff; /* Cor do título */
+    margin-top: 30px; 
+}
+.owl-prev::after {
+    content: " Voltar"; /* Adiciona texto ao botão de voltar */
+}
+
+.owl-next::after {
+    content: " Avançar"; /* Adiciona texto ao botão de avançar */
 }
