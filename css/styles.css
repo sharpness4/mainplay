@@ -284,7 +284,7 @@ footer p {
 .section-title {
     text-align: center;
     font-size: 2em; /* Tamanho da fonte */
-    font-weight: bold; /* Negrito */
+    font-weight: normal; /* Negrito */
     margin-bottom: 20px; /* Espaço abaixo do título */
     color: #fff; /* Cor do título */
 }
