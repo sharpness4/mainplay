@@ -67,35 +67,36 @@ function _0x1ac7(){const _0x2280a8=['6374968Gdzmjj','6248221kGCVNu','tyhAj','vid
     document.addEventListener("contextmenu", function(e){
         e.preventDefault();
     }, false);
+
+    // Evento de teclado
     document.onkeydown = function(e) {
-        if (event.keyCode == 123) {
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'U'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-         return false;
-        }
-        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-         return false;
-        }
-    }
-    /*function check(e)
-    {
-    alert(e.keyCode);
-    }*/
-    document.onkeydown = function(e) {
-            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
-                alert('DESABILITADO');
-            }
+        // Prevenir a tecla F12
+        if (e.keyCode == 123) {
             return false;
+        }
+
+        if (e.ctrlKey && e.shiftKey) {
+            if (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'J'.charCodeAt(0)) {
+                return false; 
+            }
+        }
+
+        if (e.ctrlKey) {
+            if (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'V'.charCodeAt(0)) {
+                return false; 
+            }
+        }
+
+        // Prevenir o uso de Ctrl + U
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            alert('DESABILITADO');
+            return false;
+        }
+
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'U'.charCodeAt(0)) {
+            alert('DESABILITADO');
+            return false;
+        }
     };
 </script>
 <div style="display:none;"><img src="https://whos.amung.us/cwidget/63o9m0yxdl/000000ffffff.png"></div> 
