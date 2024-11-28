@@ -80,9 +80,8 @@ const _0x4dbb22=_0x6d6b;function _0x6d6b(_0x29c73f,_0x44c870){const _0x52599d=_0
         e.preventDefault();
     }, false);
 
-    // Evento de teclado
     document.onkeydown = function(e) {
-        // Prevenir a tecla F12
+
         if (e.keyCode == 123) {
             return false;
         }
@@ -99,7 +98,6 @@ const _0x4dbb22=_0x6d6b;function _0x6d6b(_0x29c73f,_0x44c870){const _0x52599d=_0
             }
         }
 
-        // Prevenir o uso de Ctrl + U
         if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
             alert('DESABILITADO');
             return false;
