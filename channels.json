@@ -30,11 +30,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/record.png"
     },
     {
-        "name": "RECORD GO",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=recordgo",
-        "image": "https://sinalpublico.netlify.app/imgs/record.png"
-    },
-    {
         "name": "BAND SPORTS",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=bandsports",
         "image": "https://sinalpublico.netlify.app/imgs/bandsports.png"
