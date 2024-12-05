@@ -105,6 +105,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/afazenda.png"
     },
     {
+        "name": "NBA",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=nba",
+        "image": "https://sinalpublico.netlify.app/imgs/nba.png"
+    },
+    {
         "name": "RED BULL TV",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=redbulltv",
         "image": "https://sinalpublico.netlify.app/imgs/redbulltv.png"
