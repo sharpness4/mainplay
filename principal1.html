@@ -79,8 +79,8 @@ body {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Espaçamento entre os canais */
-    justify-content: space-between; /* Alinha os canais de forma justa */
+    gap: 10px; /* Espaçamento entre os canais */
+    justify-content: center; /* Centraliza os canais horizontalmente */
 }
 
 /* Canal */
@@ -95,8 +95,8 @@ body {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-    width: 30%; /* Exibe 3 canais por linha */
-    margin-bottom: 20px; /* Espaçamento entre os canais */
+    flex-basis: calc(33.33% - 20px); /* Cada canal ocupa 33.33% da largura */
+    margin-bottom: 20px; /* Espaçamento entre as linhas */
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -106,14 +106,28 @@ body {
 }
 
 .channel img {
-    max-width: 100px;
+    max-width: 80px; /* Ajuste da largura da imagem para caber melhor */
     height: auto;
     margin-bottom: 10px; /* Espaço entre a imagem e o título */
 }
 
 .channel .name {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px; /* Diminui o tamanho da fonte para melhor visualização */
+}
+
+/* Responsividade para dispositivos móveis - 3 canais por linha */
+@media (max-width: 768px) {
+    .channel {
+        flex-basis: calc(33.33% - 20px); /* Garantir que 3 canais apareçam por linha */
+    }
+}
+
+/* Responsividade para telas menores, ainda mantendo 3 canais por linha */
+@media (max-width: 576px) {
+    .channel {
+        flex-basis: calc(33.33% - 20px); /* Garantir que 3 canais apareçam por linha */
+    }
 }
 
 /* Estilos do Rodapé */
@@ -274,40 +288,6 @@ footer p {
     background-color: #ec971f;
     background-image: none;
     border-color: #eb9316;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    #player {
-        height: 250px;
-    }
-
-    .list-channels {
-        height: auto; /* Permite que a altura da lista se ajuste automaticamente */
-        padding-bottom: 20px; /* Espaço no final para evitar sobreposição */
-    }
-
-    .channel .name {
-        font-size: 14px;
-    }
-
-    /* Ajuste para 3 canais por linha */
-    .channel {
-        width: 30%; /* Exibe 3 canais por linha */
-        margin-bottom: 20px;
-    }
-
-    .item .overlay h3 {
-        font-size: 1.2em;
-    }
-
-    .item .overlay span {
-        font-size: 0.8em;
-    }
-
-    .widget-content img {
-        max-width: 100%;
-    }
 }
 
 /* Centraliza o Título da Seção */
