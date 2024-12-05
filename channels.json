@@ -115,29 +115,9 @@
         "image": "https://sinalpublico.netlify.app/imgs/nba.png"
     },
     {
-        "name": "ELEVEN 1",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven1",
-        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
-    },
-    {
-        "name": "ELEVEN 2",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven2",
-        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
-    },
-    {
-        "name": "ELEVEN 3",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven3",
-        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
-    },
-    {
-        "name": "ELEVEN 4",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven4",
-        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
-    },
-    {
-        "name": "ELEVEN 5",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven5",
-        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
+        "name": "COMBATE",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=combate",
+        "image": "https://sinalpublico.netlify.app/imgs/combate.png"
     },
     {
         "name": "SPORTV 1",
@@ -185,9 +165,29 @@
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
     {
-        "name": "COMBATE",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=combate",
-        "image": "https://sinalpublico.netlify.app/imgs/combate.png"
+        "name": "ELEVEN 1",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven1",
+        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
+    },
+    {
+        "name": "ELEVEN 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven2",
+        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
+    },
+    {
+        "name": "ELEVEN 3",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven3",
+        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
+    },
+    {
+        "name": "ELEVEN 4",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven4",
+        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
+    },
+    {
+        "name": "ELEVEN 5",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven5",
+        "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
     },
     {
         "name": "ESPN 1",
