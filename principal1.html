@@ -7,11 +7,12 @@
     <meta name="description" content="Assista aos melhores canais ao vivo gratuitos no Sinal Publico. Desfrute de uma variedade de programação, incluindo notícias, esportes e entretenimento.">
     <meta name="keywords" content="Sinal Publico, canais ao vivo, transmissão ao vivo, TV online, esportes ao vivo">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=650bce971ce1b90012e5d869&product=sop' async='async'></script>
-    <script src="https://kit.fontawesome.com/ccee9ace0a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ccee9ace0a.js" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
+ 
     <style>
 /* Estilos Globais */
 body {
@@ -75,24 +76,28 @@ body {
 
 /* Estilos para a Lista de Canais */
 .list-channels {
-    max-height: calc(100vh - 130px);
-    overflow-y: auto;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os canais */
+    justify-content: space-between; /* Alinha os canais de forma justa */
+    height: 100%; /* Ocupa a altura disponível sem precisar de scroll */
 }
 
-/* Estilo do Canal */
+/* Canal */
 .channel {
     background-color: #222;
     border: 1px solid #444;
     border-radius: 8px;
     padding: 10px;
     display: flex;
-    flex-direction: column; /* Alinha a imagem e o texto na coluna */
-    align-items: center; /* Centraliza o conteúdo */
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
-    color: white; /* Cor do texto para branco */
+    color: #fff;
     cursor: pointer;
-    margin-bottom: 15px; /* Adiciona espaçamento entre os canais */
+    width: 30%; /* Exibe 3 canais por linha em dispositivos móveis */
+    margin-bottom: 20px; /* Espaçamento entre os canais */
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -101,36 +106,15 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilo da Imagem do Canal */
-.channel .channel-image {
-    max-width: 100%; /* Ajusta a largura da imagem para 100% do tamanho da coluna */
-    margin-bottom: 10px; /* Adiciona um espaço abaixo da imagem */
+.channel img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px; /* Espaço entre a imagem e o título */
 }
 
-/* Estilo do Nome do Canal */
-.channel .channel-name {
+.channel .name {
+    text-align: center;
     font-size: 16px;
-    text-align: center; /* Centraliza o nome */
-    color: white; /* Cor do texto para branco */
-}
-
-/* Responsividade para Canais */
-@media (min-width: 576px) {
-    .channel {
-        width: 100%; /* Em dispositivos menores que 576px, ocupa 100% da largura */
-    }
-}
-
-@media (min-width: 768px) {
-    .channel {
-        width: 50%; /* Para telas maiores que 768px, 2 canais por linha */
-    }
-}
-
-@media (min-width: 992px) {
-    .channel {
-        width: 33.33%; /* Para telas maiores que 992px, 3 canais por linha */
-    }
 }
 
 /* Estilos do Rodapé */
@@ -218,6 +202,81 @@ footer p {
     margin-bottom: 20px;
 }
 
+/* Estilos de Botões */
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.md-link {
+    margin-right: 8px;
+}
+
+.btn-md {
+    background-color: #eef8fc !important;
+    border: none;
+    color: #141d26;
+    padding: 10px 26px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.clean-gray {
+    border: solid 1px #dedede;
+    background: #efefef;
+    color: #222;
+    padding: 4px;
+    text-align: center;
+}
+
+.my-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mr-md-auto {
+    margin-right: auto !important;
+}
+
+/* Estilos para Botões de Alerta */
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #eb9316;
+}
+
+.btn-warning:focus,
+.btn-warning.focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(240, 173, 78, 0.5);
+    box-shadow: 0 0 0 2px rgba(240, 173, 78, 0.5);
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-warning:active,
+.btn-warning.active,
+.show > .btn-warning.dropdown-toggle {
+    color: #fff;
+    background-color: #ec971f;
+    background-image: none;
+    border-color: #eb9316;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     #player {
@@ -225,11 +284,17 @@ footer p {
     }
 
     .list-channels {
-        max-height: 300px;
+        height: auto; /* Permite que a altura da lista se ajuste automaticamente */
+        padding-bottom: 20px; /* Espaço no final para evitar sobreposição */
     }
 
     .channel .name {
         font-size: 14px;
+    }
+
+    .channel {
+        width: 30%; /* Exibe 3 canais por linha */
+        margin-bottom: 20px;
     }
 
     .item .overlay h3 {
@@ -248,74 +313,130 @@ footer p {
 /* Centraliza o Título da Seção */
 .section-title {
     text-align: center;
-    font-size: 2em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    color: #fff;
-    margin-top: 30px;
+    font-size: 2em; /* Tamanho da fonte */
+    font-weight: normal; /* Negrito */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    color: #fff; /* Cor do título */
+    margin-top: 30px; 
 }
 
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="https://sinalpublico.netlify.app/futebol">
+        <a class="navbar-brand" href="/">
             <img src="/imgs/iconpage.png" alt="Logo">
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sinalpublico.netlify.app/">Principal</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Carrossel de Notícias -->
     <div class="container">
-        <h2 class="section-title">Página Em Manutenção:</h2>
+        <h2 class="section-title">Notícias de Futebol</h2>
         <div id="slider-news" class="owl-carousel owl-theme">
-            <!-- As notícias serão injetadas aqui pelo JavaScript -->
+
         </div>
     </div>
 
-    <!-- Lista de Canais -->
-    <div class="container widget-content">
-        <div class="row" id="channelList"></div>
+    <section id="player-container" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12 p-0">
+                <!-- Removido o iframe -->
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 col-md-12 p-0">
+                <section class="search-channel">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Pesquise o Canal...">
+                </section>
+                <section class="list-channels" id="channelList">
+                    <!-- Canais serão listados aqui -->
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <div class="sharethis-inline-share-buttons"></div>
+    <div class="widget-content">
+        <a id="copyLink" href="https://t.me/sinalpublico" target="_top">
+            <img border="0" data-original-height="100" data-original-width="100" src="https://sinalpublico.netlify.app/imgs/thumbgrupo.png" alt="GRUPO TELEGRAM">
+        </a>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Faz uma requisição para buscar o JSON com os canais
-            fetch("https://corsproxy.io/?url=https://sinalpublico.netlify.app/channels.json")
-                .then(response => response.json())
-                .then(data => {
-                    const channelList = document.getElementById("channelList");
-
-                    // Para cada canal no JSON, cria um novo item na lista
-                    data.forEach(channel => {
-                        const channelDiv = document.createElement("div");
-                        channelDiv.className = "col-12 col-sm-4 col-md-4 col-lg-4 channel"; // Responsivo para 3 colunas
-                        channelDiv.dataset.url = channel.url;
-                        
-                        // Adiciona o conteúdo (imagem e nome) do canal
-                        channelDiv.innerHTML = `
-                            <img src="${channel.image}" alt="${channel.name}">
-                            <div class="name">${channel.name}</div>
-                        `;
-                        
-                        // Adiciona o canal à lista
-                        channelList.appendChild(channelDiv);
-                    });
-
-                    // Adiciona o evento de clique para cada canal
-                    document.querySelectorAll(".channel").forEach(function (channelElement) {
-                        channelElement.addEventListener("click", function () {
-                            const channelUrl = this.getAttribute("data-url");
-                            // Abre o link do canal em uma nova guia
-                            window.open(channelUrl, "_blank");
-                        });
-                    });
-                });
-        });
-    </script>
+    <div id="alert" class="alert">O Link foi Copiado!</div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Carregar canais a partir do arquivo JSON
+    fetch("https://corsproxy.io/?url=https://sinalpublico.netlify.app/channels.json")
+        .then(response => response.json())
+        .then(channels => {
+            const channelList = document.getElementById("channelList");
+
+            channels.forEach(channel => {
+                const channelDiv = document.createElement("div");
+                channelDiv.className = "col-md-4 channel"; // Adicionado col-md-4 para garantir que 3 canais sejam exibidos por linha
+
+                channelDiv.innerHTML = `
+                    <img src="${channel.image}" alt="${channel.name}">
+                    <div class="name">${channel.name}</div>
+                `;
+
+                channelList.appendChild(channelDiv);
+            });
+
+            // Adicionar evento de clique para cada canal
+            document.querySelectorAll(".channel").forEach(function (channelElement) {
+                channelElement.addEventListener("click", function () {
+                    const url = this.getAttribute("data-url");
+                    window.open(url, '_blank');
+                });
+            });
+
+            // Filtrar canais com base na entrada de pesquisa
+            document.getElementById("searchInput").addEventListener("input", function () {
+                const searchQuery = this.value.toUpperCase();
+                document.querySelectorAll(".channel").forEach(function (channelElement) {
+                    const channelName = channelElement.querySelector(".name").textContent.toUpperCase();
+                    channelElement.style.display = channelName.includes(searchQuery) ? "flex" : "none";
+                });
+            });
+        })
+        .catch(error => {
+            console.error("Error loading channels:", error);
+        });
+
+    // Copiar link para a área de transferência
+    document.getElementById("copyLink").addEventListener("click", function (event) {
+        event.preventDefault();
+        const link = this.href;
+
+        navigator.clipboard.writeText(link)
+            .then(function () {
+                const alertElement = document.getElementById("alert");
+                alertElement.style.display = "block";
+                setTimeout(() => {
+                    alertElement.style.display = "none";
+                }, 2000);
+            })
+            .catch(function () {
+                console.error("Failed to copy the link.");
+            });
+    });
+});
+</script>
+    
 </body>
 </html>
