@@ -360,7 +360,7 @@ footer p {
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         // Carregar canais a partir do arquivo JSON
-        fetch("https://corsproxy.io/?url=https://sinalpublico.netlify.app/channels.json")
+        fetch("https://sinalpublico.netlify.app/channels.json")
             .then(response => response.json())
             .then(channels => {
                 const channelList = document.getElementById("channelList");
