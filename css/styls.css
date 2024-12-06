@@ -1,0 +1,285 @@
+/* Estilos Globais */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1c1c1c;
+    border-bottom: 1px solid #444;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
+
+/* Estilo do Container do Player */
+#player-container {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#player {
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#player iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Estilos de Pesquisa de Canal */
+.search-channel input {
+    height: 50px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #0d6efd;
+    padding: 0 20px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.search-channel input::placeholder {
+    color: #bbb;
+}
+
+/* Estilos para a Lista de Canais */
+.list-channels {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaçamento entre os canais */
+    justify-content: center; /* Centraliza os canais horizontalmente */
+}
+
+/* Canal */
+.channel {
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    flex-basis: calc(33.33% - 20px); /* Cada canal ocupa 33.33% da largura */
+    margin-bottom: 20px; /* Espaçamento entre as linhas */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.channel:hover {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.channel img {
+    max-width: 80px; /* Ajuste da largura da imagem para caber melhor */
+    height: auto;
+    margin-bottom: 10px; /* Espaço entre a imagem e o título */
+}
+
+.channel .name {
+    text-align: center;
+    font-size: 14px; /* Diminui o tamanho da fonte para melhor visualização */
+}
+
+/* Responsividade para dispositivos móveis - 3 canais por linha */
+@media (max-width: 768px) {
+    .channel {
+        flex-basis: calc(33.33% - 20px); /* Garantir que 3 canais apareçam por linha */
+    }
+}
+
+/* Responsividade para telas menores, ainda mantendo 3 canais por linha */
+@media (max-width: 576px) {
+    .channel {
+        flex-basis: calc(33.33% - 20px); /* Garantir que 3 canais apareçam por linha */
+    }
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Widget de Imagem */
+.widget-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.widget-content img {
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Estilo de Alerta */
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Inicialmente escondido */
+}
+
+/* Estilos para Carrossel de Notícias */
+.owl-carousel .item {
+    font-size: 11px; /* Define o tamanho fixo em pixels */
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.owl-carousel .item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.item .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.item .overlay h3 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.item .overlay span {
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Padding entre o carrossel e o vídeo */
+#slider-news {
+    margin-bottom: 20px;
+}
+
+/* Estilos de Botões */
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.md-link {
+    margin-right: 8px;
+}
+
+.btn-md {
+    background-color: #eef8fc !important;
+    border: none;
+    color: #141d26;
+    padding: 10px 26px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.clean-gray {
+    border: solid 1px #dedede;
+    background: #efefef;
+    color: #222;
+    padding: 4px;
+    text-align: center;
+}
+
+.my-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.mr-md-auto {
+    margin-right: auto !important;
+}
+
+/* Estilos para Botões de Alerta */
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #eb9316;
+}
+
+.btn-warning:focus,
+.btn-warning.focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(240, 173, 78, 0.5);
+    box-shadow: 0 0 0 2px rgba(240, 173, 78, 0.5);
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-warning:active,
+.btn-warning.active,
+.show > .btn-warning.dropdown-toggle {
+    color: #fff;
+    background-color: #ec971f;
+    background-image: none;
+    border-color: #eb9316;
+}
+
+/* Centraliza o Título da Seção */
+.section-title {
+    text-align: center;
+    font-size: 2em; /* Tamanho da fonte */
+    font-weight: normal; /* Negrito */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    color: #fff; /* Cor do título */
+    margin-top: 30px; 
+}
