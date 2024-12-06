@@ -190,6 +190,26 @@
         "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
     },
     {
+        "name": "PREMIERE 2 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiere2-2",
+        "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
+    },
+    {
+        "name": "PREMIERE 3 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiere3-2",
+        "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
+    },
+    {
+        "name": "PREMIERE 4 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiere4-2",
+        "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
+    },
+    {
+        "name": "PREMIERE 5 - Opção 2",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=premiere5-2",
+        "image": "https://sinalpublico.netlify.app/imgs/premiere.png"
+    },
+    {
         "name": "ELEVEN 1",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=eleven1",
         "image": "https://sinalpublico.netlify.app/imgs/eleven.png"
