@@ -360,7 +360,8 @@ footer p {
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         // Carregar canais a partir do arquivo JSON
-        fetch("https://sinalpublico.netlify.app/channels.json")
+                        // Remover o iframe do player (se houver)
+        fetch("https://corsproxy.io/?url=https://sinalpublico.netlify.app/channels.json")
             .then(response => response.json())
             .then(channels => {
                 const channelList = document.getElementById("channelList");
@@ -382,8 +383,6 @@ footer p {
                 document.querySelectorAll(".channel").forEach(function (channelElement) {
                     channelElement.addEventListener("click", function () {
                         // Remover o iframe do player (se houver)
-                        const playerContainer = document.getElementById("player-container");
-                        playerContainer.innerHTML = ''; // Remove o iframe
 
                         // Abrir o link do canal em uma nova aba
                         const url = this.getAttribute("data-url");
