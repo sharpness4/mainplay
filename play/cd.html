@@ -3,26 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta content='width=device-width, initial-scale=1' name='viewport'>
-    <meta name="referrer" content="no-referrer">
-    <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
-    <script src="https://fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
-    <script src="https://ssl.p.jwpcdn.com/player/v/8.26.0/jwpsrv.js"></script>
-    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
     <style>
         body, html {
             font-family: 'Arial', sans-serif;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-</head>
-<body>
-<div id="player"></div>
-</div>
-    <style>
-        body, html {
             height: 100%;
             margin: 0;
             padding: 0;
@@ -35,30 +18,31 @@
             border: none;
         }
     </style>
+</head>
 <body>
-<script>
-    window.onload = function() {
-        var urlParams = new URLSearchParams(window.location.search);
-        var encodedSrc = urlParams.get("id");
+    <script>
+        window.onload = function() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var encodedSrc = urlParams.get("id");
 
-        if (encodedSrc) {
-            var iframeSrc = atob(encodedSrc);
+            if (encodedSrc) {
+                var iframeSrc = atob(encodedSrc);
 
-            var iframe = document.createElement("iframe");
-            iframe.src = iframeSrc;
-            iframe.frameBorder = "0";
-            iframe.allowFullscreen = true;
+                var iframe = document.createElement("iframe");
+                iframe.src = iframeSrc;
+                iframe.frameBorder = "0";
+                iframe.allowFullscreen = true;
+                iframe.allow = "autoplay; encrypted-media; picture-in-picture"; 
 
-            iframe.allow = "autoplay; encrypted-media; picture-in-picture"; 
+                var iframeContainer = document.createElement("div");
+                iframeContainer.className = "tokens";
+                iframeContainer.appendChild(iframe);
 
-            var iframeContainer = document.createElement("div");
-            iframeContainer.className = "tokens";
-            iframeContainer.appendChild(iframe);
+                document.body.appendChild(iframeContainer);
+            }
+        };
+    </script>
 
-            document.body.appendChild(iframeContainer);
-        }
-    };
-</script>
 <script type="86514701dc429a0bf601b774-text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://www.looktotheright.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="86514701dc429a0bf601b774-|49" defer></script>
 <script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"></script> 
