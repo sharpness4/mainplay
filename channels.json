@@ -35,6 +35,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/gefast.png"
     },
     {
+        "name": "RECEITAS FAST",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=receitasfast",
+        "image": "https://sinalpublico.netlify.app/imgs/receitasfast.png"
+    },
+    {
         "name": "SBT",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt",
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
