@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta content='width=device-width, initial-scale=1' name='viewport'>
-    <meta name="referrer" content="no-referrer">
-    <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
-    <script src="https://fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
     <style>
         body, html {
             margin: 0;
@@ -25,41 +21,37 @@
 </head>
 <body>
     <script>
-  async function loadIframeData() {
-  try {
+        async function loadIframeData() {
+            try {
+                const response = await fetch("/play/zxz/tuquebrouocano.json");
+                
+                if (!response.ok) {
+                    throw new Error("Erro ao carregar o JSON");
+                }
 
-    const response = await fetch("/play/zxz/tuquebrouocano.json");
-    
-    if (!response.ok) {
-      throw new Error("Erro ao carregar o JSON");
-    }
+                const data = await response.json();
 
-    const data = await response.json();
+                // Obtém o parâmetro 'id' da URL
+                const iframeId = getUrlParameter('id');
 
-    // Obtém o parâmetro 'id' da URL
-    const iframeId = getUrlParameter('id');
+                if (data.iframes && data.iframes[iframeId]) {
+                    document.body.innerHTML = data.iframes[iframeId];
+                } else {
+                    document.body.innerHTML = "<p>Canal não encontrado.</p>";
+                }
+            } catch (error) {
+                console.error(error);
+                document.body.innerHTML = "<p>Erro ao carregar dados.</p>";
+            }
+        }
 
-    if (data.iframes && data.iframes[iframeId]) {
-      document.body.innerHTML = data.iframes[iframeId];
-    } else {
+        function getUrlParameter(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
 
-      document.body.innerHTML = "<p>Canal não encontrado.</p>";
-    }
-  } catch (error) {
-
-    console.error(error);
-    document.body.innerHTML = "<p>Erro ao carregar dados.</p>";
-  }
-}
-
-function getUrlParameter(param) {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(param);
-}
-
-loadIframeData();
-
-</script>
+        loadIframeData();
+    </script>
 
 <script type="86514701dc429a0bf601b774-text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://www.looktotheright.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="86514701dc429a0bf601b774-|49" defer></script>
