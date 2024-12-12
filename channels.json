@@ -305,6 +305,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/viva.png"
     },
     {
+        "name": "VIVA 80",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=viva80",
+        "image": "https://sinalpublico.netlify.app/imgs/viva80.png"
+    },
+    {
         "name": "MODOVIAGEM",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=modoviagem",
         "image": "https://sinalpublico.netlify.app/imgs/modoviagem.png"
@@ -323,6 +328,11 @@
         "name": "COMEDY CENTRAL",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=comedycentral",
         "image": "https://sinalpublico.netlify.app/imgs/comedycentral.png"
+    },
+    {
+        "name": "BIS",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=bis",
+        "image": "https://sinalpublico.netlify.app/imgs/bis.png"
     },
     {
         "name": "TNT",
