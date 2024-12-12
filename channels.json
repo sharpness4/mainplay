@@ -30,6 +30,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
+        "name": "GE FAST",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=gefast",
+        "image": "https://sinalpublico.netlify.app/imgs/gefast.png"
+    },
+    {
         "name": "SBT",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sbt",
         "image": "https://sinalpublico.netlify.app/imgs/sbt.png"
