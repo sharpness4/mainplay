@@ -280,26 +280,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/espn.png"
     },
     {
-        "name": "BONS TEMPOS TV",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=bonstempostv",
-        "image": "https://sinalpublico.netlify.app/imgs/bonstempostv.png"
-    },
-    {
-        "name": "WEB TV CLASSICOS",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=webtvclassicos",
-        "image": "https://sinalpublico.netlify.app/imgs/webtvclassicos.png"
-    },
-    {
-        "name": "SERIES CLASSICOS",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=seriesclassicos",
-        "image": "https://sinalpublico.netlify.app/imgs/seriesclassicos.png"
-    },
-    {
-        "name": "VILLA TV",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=villatv",
-        "image": "https://sinalpublico.netlify.app/imgs/villatv.png"
-    },
-    {
         "name": "OFF",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=off",
         "image": "https://sinalpublico.netlify.app/imgs/off.png"
@@ -383,6 +363,26 @@
         "name": "STAR CHANNEL",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=starchannel",
         "image": "https://sinalpublico.netlify.app/imgs/starchannel.png"
+    },
+    {
+        "name": "BONS TEMPOS TV",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=bonstempostv",
+        "image": "https://sinalpublico.netlify.app/imgs/bonstempostv.png"
+    },
+    {
+        "name": "WEB TV CLASSICOS",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=webtvclassicos",
+        "image": "https://sinalpublico.netlify.app/imgs/webtvclassicos.png"
+    },
+    {
+        "name": "SERIES CLASSICOS",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=seriesclassicos",
+        "image": "https://sinalpublico.netlify.app/imgs/seriesclassicos.png"
+    },
+    {
+        "name": "VILLA TV",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=villatv",
+        "image": "https://sinalpublico.netlify.app/imgs/villatv.png"
     },
     {
         "name": "V2BEAT",
