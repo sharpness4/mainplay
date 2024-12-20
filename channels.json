@@ -320,11 +320,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/tnt.png"
     },
     {
-        "name": "PARAMOUNT NETWORK",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=paramountnetwork",
-        "image": "https://sinalpublico.netlify.app/imgs/paramount.png"
-    },
-    {
         "name": "MEGAPIX",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=megapix",
         "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
@@ -333,6 +328,11 @@
         "name": "TELECINE PIPOCA",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepipoca",
         "image": "https://sinalpublico.netlify.app/imgs/telecinepipoca.png"
+    },
+    {
+        "name": "TELECINE ACTION",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecineaction",
+        "image": "https://sinalpublico.netlify.app/imgs/telecineaction.png"
     },
     {
         "name": "TELECINE PREMIUM",
