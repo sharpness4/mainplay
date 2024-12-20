@@ -405,6 +405,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/gloob.png"
     },
     {
+        "name": "D.P.A Detetives",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=dpadetetives",
+        "image": "https://sinalpublico.netlify.app/imgs/dpadetetives.png"
+    },
+    {
         "name": "CARTOON NETWORK",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=cartoonnetwork",
         "image": "https://sinalpublico.netlify.app/imgs/cartoonnetwork.png"
