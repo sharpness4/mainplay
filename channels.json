@@ -345,9 +345,19 @@
         "image": "https://sinalpublico.netlify.app/imgs/telecinepremium.png"
     },
     {
+        "name": "FX",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=fx",
+        "image": "https://sinalpublico.netlify.app/imgs/fx.png"
+    },
+    {
         "name": "HBO",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=hbo",
         "image": "https://sinalpublico.netlify.app/imgs/hbo.png"
+    },
+    {
+        "name": "HBO FAMILY",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=hbofamily",
+        "image": "https://sinalpublico.netlify.app/imgs/hbofamily.png"
     },
     {
         "name": "GNT",
@@ -363,6 +373,11 @@
         "name": "STAR CHANNEL",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=starchannel",
         "image": "https://sinalpublico.netlify.app/imgs/starchannel.png"
+    },
+    {
+        "name": "ANIMAL PLANET",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=animalplanet",
+        "image": "https://sinalpublico.netlify.app/imgs/animalplanet.png"
     },
     {
         "name": "BONS TEMPOS TV",
