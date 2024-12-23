@@ -335,6 +335,21 @@
         "image": "https://sinalpublico.netlify.app/imgs/fx.png"
     },
     {
+        "name": "DISCOVERY ID",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=discoveryid",
+        "image": "https://sinalpublico.netlify.app/imgs/discoveryid.png"
+    },
+    {
+        "name": "DISCOVERY TURBO",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=discoveryturbo",
+        "image": "https://sinalpublico.netlify.app/imgs/discoveryturbo.png"
+    },
+    {
+        "name": "DISCOVERY WORLD",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=discoveryworld",
+        "image": "https://sinalpublico.netlify.app/imgs/discoveryworld.png"
+    },
+    {
         "name": "HBO",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=hbo",
         "image": "https://sinalpublico.netlify.app/imgs/hbo.png"
