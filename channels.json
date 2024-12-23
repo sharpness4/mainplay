@@ -120,6 +120,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/combate.png"
     },
     {
+        "name": "PONTE PRETA",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=pontepreta",
+        "image": "https://sinalpublico.netlify.app/imgs/pontepreta.png"
+    },
+    {
         "name": "SPORTV 1",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=sportv1",
         "image": "https://sinalpublico.netlify.app/imgs/sportv.png"
