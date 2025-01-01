@@ -265,6 +265,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/off.png"
     },
     {
+        "name": "AXN",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=axn",
+        "image": "https://sinalpublico.netlify.app/imgs/axn.png"
+    },
+    {
         "name": "VIVA",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=viva",
         "image": "https://sinalpublico.netlify.app/imgs/viva.png"
@@ -408,6 +413,16 @@
         "name": "ADULTSWIM",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=adultswim",
         "image": "https://sinalpublico.netlify.app/imgs/adultswim.png"
+    },
+    {
+        "name": "NICKELODEON",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=nickelodeon",
+        "image": "https://sinalpublico.netlify.app/imgs/nickelodeon.png"
+    },
+    {
+        "name": "NICK JR",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=nickjr",
+        "image": "https://sinalpublico.netlify.app/imgs/nickjr.png"
     },
     {
         "name": "GLOOBINHO",
