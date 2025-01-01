@@ -405,11 +405,6 @@
         "image": "https://sinalpublico.netlify.app/imgs/villatv.png"
     },
     {
-        "name": "V2BEAT",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=v2beat",
-        "image": "https://sinalpublico.netlify.app/imgs/v2beat.png"
-    },
-    {
         "name": "ADULTSWIM",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=adultswim",
         "image": "https://sinalpublico.netlify.app/imgs/adultswim.png"
