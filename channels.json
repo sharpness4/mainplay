@@ -290,6 +290,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/paramount.png"
     },
     {
+        "name": "WARNERBROS",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=warnerbros",
+        "image": "https://sinalpublico.netlify.app/imgs/warnerbros.png"
+    },
+    {
         "name": "STUDIO UNIVERSAL",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=studiouniversal",
         "image": "https://sinalpublico.netlify.app/imgs/studiouniversal.png"
