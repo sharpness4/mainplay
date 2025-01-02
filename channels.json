@@ -410,6 +410,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/adultswim.png"
     },
     {
+        "name": "JETSON TV",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=jetsontv",
+        "image": "https://sinalpublico.netlify.app/imgs/jetsontv.png"
+    },
+    {
         "name": "NICKELODEON",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=nickelodeon",
         "image": "https://sinalpublico.netlify.app/imgs/nickelodeon.png"
