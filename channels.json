@@ -325,6 +325,11 @@
         "image": "https://sinalpublico.netlify.app/imgs/megapix.png"
     },
     {
+        "name": "FX",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=fx",
+        "image": "https://sinalpublico.netlify.app/imgs/fx.png"
+    },
+    {
         "name": "TELECINE PIPOCA",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepipoca",
         "image": "https://sinalpublico.netlify.app/imgs/telecinepipoca.png"
@@ -338,11 +343,6 @@
         "name": "TELECINE PREMIUM",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=telecinepremium",
         "image": "https://sinalpublico.netlify.app/imgs/telecinepremium.png"
-    },
-    {
-        "name": "FX",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=fx",
-        "image": "https://sinalpublico.netlify.app/imgs/fx.png"
     },
     {
         "name": "DISCOVERY ID",
