@@ -1,5 +1,15 @@
 [
     {
+        "name": "GLOBO",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globo",
+        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
+    },
+    {
+        "name": "TV GLOBO ",
+        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=tvglobo",
+        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
+    },
+    {
         "name": "GLOBO SP",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosp",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
@@ -22,11 +32,6 @@
     {
         "name": "GLOBO CE",
         "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globoce",
-        "image": "https://sinalpublico.netlify.app/imgs/globo.png"
-    },
-    {
-        "name": "GLOBO SOROCABA",
-        "url": "https://sinalpublico.netlify.app/play/dtv.html?id=globosorocaba",
         "image": "https://sinalpublico.netlify.app/imgs/globo.png"
     },
     {
