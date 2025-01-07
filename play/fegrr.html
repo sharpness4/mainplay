@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sinalpublico/ply@main/assets/css/player-v3.1.min.css">
+    <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo'; </script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Botão no canto esquerdo */
+        .button {
+            position: fixed;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        /* Modal (popup) */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+        }
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Função para obter parâmetro da URL
+        function getUrlParameter(param) {
+            param = param.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + param + "(=([^&#]*)|&|#|$)");
+            var results = regex.exec(window.location.href);
+            if (!results) {
+                return null;
+            }
+            if (!results[2]) {
+                return '';
+            }
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var id = getUrlParameter('m');
+
+        if (id === "globo") {
+            document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+        } 
+        else if (id === "redbulltv") {
+            document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=redbulltv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+        } else {
+            document.body.innerHTML = '<img src="https://sinalpublico.netlify.app/imgs/naoencontrado.png" alt="Canal não encontrado">';
+        }
+    </script>
+
+    <!-- Botão que aciona o modal -->
+    <button class="button" onclick="showModal()">Clique Aqui</button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p>Assista melhor em nosso <a href="https://sinalpublico.netlify.app" target="_blank">site</a>.</p>
+            <button onclick="closeModal()">Fechar</button>
+        </div>
+    </div>
+
+    <script>
+        // Função para exibir o modal
+        function showModal() {
+            document.getElementById('myModal').style.display = 'flex';
+        }
+
+        // Função para fechar o modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
