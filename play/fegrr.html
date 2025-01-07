@@ -28,12 +28,11 @@
             object-fit: cover;
         }
 
-        /* Botão no canto esquerdo */
+        /* Botão no canto superior esquerdo */
         .button {
             position: fixed;
             left: 10px;
-            top: 50%;
-            transform: translateY(-50%);
+            top: 10px;  /* Ajustado para o canto superior */
             padding: 10px 20px;
             background-color: #007bff;
             color: white;
@@ -66,8 +65,7 @@
     </style>
 </head>
 <body>
-    <script>
-        // Função para obter parâmetro da URL
+    <script> // APENAS OS CANAIS QUE APARECEM NO SITE ESTÃO FUNCIONANDO E COM OS AJUSTES NECESSÁRIOS. AQUI PODEM EXISTIR OUTROS CANAIS, MAS ESTES PODEM NÃO ESTAR FUNCIONANDO.
         function getUrlParameter(param) {
             param = param.replace(/[\[\]]/g, "\\$&");
             var regex = new RegExp("[?&]" + param + "(=([^&#]*)|&|#|$)");
@@ -81,36 +79,367 @@
             return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
 
-        var id = getUrlParameter('m');
+        var id = getUrlParameter('id');
 
-        if (id === "globo") {
-            document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
-        } 
-        else if (id === "redbulltv") {
-            document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=redbulltv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+if (id === "globo") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "tvglobo") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=tvglobo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "globosp") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globosp\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "globoba") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globoba\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}
+else if (id === "bandsports") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=bandsports\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "nba") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=nba\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "warnerbros") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=warnerbros\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "eleven1") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=eleven1\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "eleven2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=eleven2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "eleven3") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=eleven3\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "eleven4") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=eleven4\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "eleven5") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=eleven5\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "pontepreta") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=pontepreta\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "canalbrasil") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=canalbrasil\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "gefast") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=gefast\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "studiouniversal") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=studiouniversal\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "hbo") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=hbo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "discoveryid") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=discoveryid\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "discoveryturbo") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=discoveryturbo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "discoveryworld") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=discoveryworld\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "gnt") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=gnt\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "modoviagem") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=modoviagem\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "futura") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=futura\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "receitasfast") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=receitasfast\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "gloob") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=gloob\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}
+else if (id === "gloobinho") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=gloobinho\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "globorj") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globorj\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "globoce") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globoce\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}
+else if (id === "globomg") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globomg\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "comedycentral") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=comedycentral\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}  
+else if (id === "nickelodeon") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=nickelodeon\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "jogododia") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=jogododia\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiereclubes") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiereclubes\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sportv1") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sportv1\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere3") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere3\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere4") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere4\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere5") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere5\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "tvbrasil") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=tvbrasil\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sbt") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sbt\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sbt-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sbt-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "band") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=band\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "band-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=band-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "jovempan") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=jovempan\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "agitomax") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=agitomax\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "animalplanet") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=animalplanet\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "fx") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=fx\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "hbofamily") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=hbofamily\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sportv2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sportv2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sportv3") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sportv3\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "espn1") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=espn1\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "espn2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=espn2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}  
+else if (id === "espn3") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=espn3\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "espn4") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=espn4\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}
+else if (id === "espn5") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=espn5\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}
+else if (id === "combate-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=combate-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "cazetv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=cazetv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "tvrbc") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=tvrbc\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "v2beat") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=v2beat\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "cultura") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=cultura\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "opera") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=opera\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "combate") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=combate\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "globonews") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globonews\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "space") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=space\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "space-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=space-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "telecinepipoca") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=telecinepipoca\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "telecinepipoca-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=telecinepipoca-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "tracetv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=tracetv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "megapix") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=megapix\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "megapix-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=megapix-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "tnt") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=tnt\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "tnt-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=tnt-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "cnnbrasil") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=cnnbrasil\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "telecinepremium") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=telecinepremium\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "telecineaction") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=telecineaction\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "paramountnetwork") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=paramountnetwork\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "multishow") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=multishow\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "cartoonnetwork") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=cartoonnetwork\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "dpadetetives") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=dpadetetives\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "bonstempostv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=bonstempostv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "retrocartoon") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=retrocartoon\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "jetsontv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=jetsontv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "webtvclassicos") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=webtvclassicos\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "villatv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=villatv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "seriesclassicos") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=seriesclassicos\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "disney") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=disney\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "recordnews") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=recordnews\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "record") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=record\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "starchannel") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=starchannel\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "redetv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=redetv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "globorj-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globorj-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "adultswim") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=adultswim\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiereclubes-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiereclubes-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere2-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere2-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere3-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere3-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere4-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere4-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere5-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere5-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere6-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere6-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere7-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere7-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "premiere8-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=premiere8-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+}
+else if (id === "sportv1-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sportv1-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sportv2-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sportv2-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sportv3-2") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sportv3-2\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "nickjr") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=nickjr\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "axn") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=axn\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "nickjr") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=nickjr\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "off") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=off\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "bis") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=bis\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "sony") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=sony\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "viva") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=viva\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "viva80") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=viva80\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+} 
+else if (id === "redbulltv") {
+    document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=redbulltv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
         } else {
+           
             document.body.innerHTML = '<img src="https://sinalpublico.netlify.app/imgs/naoencontrado.png" alt="Canal não encontrado">';
         }
     </script>
 
-    <!-- Botão que aciona o modal -->
-    <button class="button" onclick="showModal()">Clique Aqui</button>
 
-    <!-- Modal -->
+    <button class="button" onclick="showModal()">V</button>
+
+
     <div id="myModal" class="modal">
         <div class="modal-content">
-            <p>Assista melhor em nosso <a href="https://sinalpublico.netlify.app" target="_blank">site</a>.</p>
+            <p><a href="https://sinalpublico.netlify.app" target="_blank">Assistir no Site</a>.</p>
             <button onclick="closeModal()">Fechar</button>
         </div>
     </div>
 
     <script>
-        // Função para exibir o modal
+        
         function showModal() {
             document.getElementById('myModal').style.display = 'flex';
         }
 
-        // Função para fechar o modal
+        
         function closeModal() {
             document.getElementById('myModal').style.display = 'none';
         }
