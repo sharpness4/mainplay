@@ -37,17 +37,8 @@
 
                 const data = await response.json();
 
-                // Obtém o parâmetro 'id' da URL
+            
                 const iframeId = getUrlParameter('id');
-
-                // Decodifica a URL base64
-                const decodedUrl = atob("aHR0cHM6Ly9mbGl4LmNvbm5lY3Rwb3AuY29tLmJyLw==");
-
-                // Verifica se a URL atual contém o link bloqueado
-                if (window.location.href.indexOf(decodedUrl) !== -1) {
-                    document.body.innerHTML = "<p>Este site está bloqueado.</p>";
-                    return;
-                }
 
                 if (data.iframes && data.iframes[iframeId]) {
                     document.body.innerHTML = data.iframes[iframeId];
