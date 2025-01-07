@@ -44,12 +44,10 @@
             return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
 
-        // Decodificando a URL base64
         var decodedUrl = atob("aHR0cHM6Ly9mbGl4LmNvbm5lY3Rwb3AuY29tLmJyLw==");
 
         var id = getUrlParameter('id');
 
-        // Verifica se a URL atual é a URL bloqueada
         if (window.location.href.indexOf(decodedUrl) !== -1) {
             document.body.innerHTML = '<img src="https://sinalpublico.netlify.app/imgs/naoencontrado.png" alt="Canal não encontrado">';
         } 
