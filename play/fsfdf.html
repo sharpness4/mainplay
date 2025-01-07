@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sinalpublico/ply@main/assets/css/player-v3.1.min.css">
+    <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo'; </script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <script> 
+        function getUrlParameter(param) {
+            param = param.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + param + "(=([^&#]*)|&|#|$)");
+            var results = regex.exec(window.location.href);
+            if (!results) {
+                return null;
+            }
+            if (!results[2]) {
+                return '';
+            }
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var id = getUrlParameter('id');
+        var blockedUrl = "https://cloudm3u8publictv.blogspot.com/";
+
+        // Verifica se o ID é o do site bloqueado
+        if (id === "globo") {
+            document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=globo\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+        } 
+        else if (id === "redbulltv") {
+            document.body.innerHTML = "<iframe src=\"https://sinalpublico.netlify.app/play/zipados.html?id=redbulltv\" width=\"100%\" height=\"100%\" scrolling=\"no\" allow=\"encrypted-media\" allowfullscreen=\"true\" frameborder=\"0\"></iframe>";
+        } 
+        else if (window.location.href.indexOf(blockedUrl) !== -1) {
+            // Bloqueia o site específico
+            document.body.innerHTML = '<img src="https://sinalpublico.netlify.app/imgs/naoencontrado.png" alt="Canal não encontrado">';
+        }
+        else {
+            document.body.innerHTML = '<img src="https://sinalpublico.netlify.app/imgs/naoencontrado.png" alt="Canal não encontrado">';
+        }
+    </script>
+
+    <script type="text/javascript">
+        document.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
+
+        document.onkeydown = function(e) {
+            if (e.keyCode == 123) {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.key === 'u') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.key === 'u') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && (e.key === 'c' || e.key === 'v' || e.key === 'x')) {
+                e.preventDefault();
+                return false;
+            }
+        };
+    </script>
+
+    <script id="_waudf1">var _wau = _wau || []; _wau.push(["dynamic", "63o9m0yxdl", "df1", "c4302bffffff", "small"]);</script>
+    <script async src="//waust.at/d.js"></script>
+    <iframe src="https://sinalpublico.netlify.app/play/x.html" allow="encrypted-media" width="2" height="2"></iframe>
+
+</body>
+</html>
